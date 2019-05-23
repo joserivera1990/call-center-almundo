@@ -35,15 +35,12 @@ Java JDK 8 and Maven are required to run the project.
 
 In order to compile the program, you need to run the next sentence:
 
-```bash
 mvn clean install
-```
 
 ## Running the tests
 
-```bash
 mvn clean test
-```
+
 
 ## Author
 
