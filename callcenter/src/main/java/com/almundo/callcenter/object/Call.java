@@ -16,7 +16,7 @@ public class Call {
     private static final Logger logger = LoggerFactory.getLogger(Call.class);
 
     /**
-     * Creates a new Call with duration measured in seconds
+     * Creates a new Call with duration in seconds
      *
      * @param durationInSeconds duration in seconds must be equal or greater than zero
      */

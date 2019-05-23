@@ -29,7 +29,6 @@ public abstract class Employee implements Runnable {
 
         this.id = UUID.randomUUID().toString();
         this.state = EmployeeState.AVAILABLE;
-        this.state = EmployeeState.AVAILABLE;
         this.incomingCalls = new LinkedBlockingQueue<>();
         this.attendedCalls = new LinkedBlockingQueue<>();
     }
@@ -50,7 +49,7 @@ public abstract class Employee implements Runnable {
     }
 
     /**
-     * Queues a call to be attended by the employee
+     * It addes to the queue a call to be attended by the employee
      *
      * @param call call to be attended
      */

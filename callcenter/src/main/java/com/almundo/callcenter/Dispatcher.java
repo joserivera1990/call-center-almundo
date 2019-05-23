@@ -45,7 +45,7 @@ public class Dispatcher implements Runnable {
     }
 
     /**
-     * Starts the employee threads and allows the dispatcher run method to execute
+     * It starts the employee threads and it allows the dispatcher run method to execute
      */
     public synchronized void start() {
         this.active = true;
