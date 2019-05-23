@@ -41,8 +41,9 @@ mvn clean install
 
 ## Running the tests
 
+```bash
 mvn clean test
-
+```
 
 ## Author
 
